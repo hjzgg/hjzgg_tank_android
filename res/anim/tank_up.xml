@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/mytank_up1" android:duration="60"/>
+    <item android:drawable="@drawable/mytank_up2" android:duration="60"/>
+    <item android:drawable="@drawable/mytank_up3" android:duration="60"/>
+    <item android:drawable="@drawable/mytank_up4" android:duration="60"/>
+    <item android:drawable="@drawable/mytank_up5" android:duration="60"/>
+    <item android:drawable="@drawable/mytank_up6" android:duration="60"/>
+    <item android:drawable="@drawable/mytank_up7" android:duration="60"/>
+    <item android:drawable="@drawable/mytank_up8" android:duration="60"/>
+    <item android:drawable="@drawable/mytank_up9" android:duration="60"/>
+    <item android:drawable="@drawable/mytank_up10" android:duration="60"/>
+    <item android:drawable="@drawable/mytank_up11" android:duration="60"/>
+    <item android:drawable="@drawable/mytank_up12" android:duration="60"/>
+    <item android:drawable="@drawable/mytank_up13" android:duration="60"/>
+    <item android:drawable="@drawable/mytank_up14" android:duration="60"/>
+    <item android:drawable="@drawable/mytank_up15" android:duration="60"/>
+    <item android:drawable="@drawable/mytank_up16" android:duration="60"/>
+    <item android:drawable="@drawable/mytank_up17" android:duration="60"/>
+    <item android:drawable="@drawable/mytank_up18" android:duration="60"/>
+    <item android:drawable="@drawable/mytank_up19" android:duration="60"/>
+    <item android:drawable="@drawable/mytank_up20" android:duration="60"/>
+    <item android:drawable="@drawable/mytank_up21" android:duration="60"/>
+    <item android:drawable="@drawable/mytank_up22" android:duration="60"/>
+    <item android:drawable="@drawable/mytank_up23" android:duration="60"/>
+    <item android:drawable="@drawable/mytank_up24" android:duration="60"/>
+    
+</animation-list>

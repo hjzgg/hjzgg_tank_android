@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    <!-- 左端组件 -->
+    <ImageView
+        android:id="@+id/leftView"
+        android:layout_width="50dp"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/left_title" />
+    <!-- 顶端组件 -->
+    <TextView 
+        android:id="@+id/topView"
+        android:background="#ffffff"
+        android:text="hjzgg------tank"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:layout_height="30dp"
+        android:layout_width="match_parent"
+        android:layout_toRightOf="@id/leftView"
+        android:layout_toLeftOf="@+id/rightView"
+        android:layout_alignParentTop="true"
+        />
+    <!-- 右端组件 -->
+    <LinearLayout 
+		android:id="@+id/rightView"
+		android:layout_width="60dp"
+		android:layout_height="match_parent"
+		android:orientation="vertical"
+		android:gravity="center_horizontal"
+		android:layout_alignParentRight="true"
+		android:background="#ffffff"
+        >
+        
+        <TextView 
+            android:text="自定义组件如下:"
+            android:textColor="#666600"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        
+        <ImageButton 
+            android:id="@+id/grass_btn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/grass"
+            android:layout_marginTop="10dp"
+            />
+        <TextView 
+            android:text="草地"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <ImageButton 
+            android:id="@+id/stellWall_btn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/steel_wall"
+            android:layout_marginTop="10dp"
+            android:scaleType="centerCrop"
+            />
+        <TextView 
+            android:text="钢墙"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <ImageButton 
+            android:id="@+id/wall_btn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/wall"
+            android:layout_marginTop="10dp"
+            android:scaleType="centerCrop"
+            />
+        <TextView 
+            android:text="砖墙"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <ImageButton 
+            android:id="@+id/water_btn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/water"
+            android:layout_marginTop="10dp"
+            android:scaleType="centerCrop"
+            />
+        <TextView 
+            android:text="水"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        
+         <ImageButton 
+            android:id="@+id/null_btn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/null_black"
+            android:layout_marginTop="10dp"
+            android:scaleType="centerCrop"
+            />
+	      <TextView 
+	            android:text="擦除"
+	            android:textColor="#000000"
+	            android:gravity="center"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            />
+	      
+	      <Button 
+            android:id="@+id/begin_self_game"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="开始游戏"
+            android:layout_marginTop="10dp"
+            />
+	      
+	      <Button 
+            android:id="@+id/self_game_reset"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="重置自定义"
+            android:layout_marginTop="10dp"
+            />
+	      
+    </LinearLayout>
+    <!-- 低端组件 -->
+    <TextView 
+        android:id="@+id/downView"
+        android:background="#ffffff"
+        android:text="祝您游戏愉快!"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:layout_height="30dp"
+        android:layout_width="match_parent"
+        android:layout_toLeftOf="@id/rightView"
+        android:layout_toRightOf="@id/leftView"
+        android:layout_alignParentBottom="true"
+        />
+    <!-- 中间组件 -->
+    <AbsoluteLayout
+        android:id="@+id/centerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="0dp"
+        android:padding="0dp"
+        android:background="#000000"
+        android:layout_toLeftOf="@id/rightView"
+        android:layout_toRightOf="@id/leftView"
+        android:layout_above="@id/downView"
+        android:layout_below="@id/topView"
+        >
+    </AbsoluteLayout>
+
+</RelativeLayout>

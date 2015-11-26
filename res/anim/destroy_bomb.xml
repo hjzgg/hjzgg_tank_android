@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/destroy1" android:duration="60"/>
+    <item android:drawable="@drawable/destroy2" android:duration="60"/>
+    <item android:drawable="@drawable/destroy3" android:duration="60"/>
+    <item android:drawable="@drawable/destroy4" android:duration="60"/>
+    <item android:drawable="@drawable/destroy5" android:duration="60"/>
+    <item android:drawable="@drawable/destroy6" android:duration="60"/>
+    <item android:drawable="@drawable/destroy7" android:duration="60"/>
+    <item android:drawable="@drawable/destroy8" android:duration="60"/>
+    <item android:drawable="@drawable/destroy9" android:duration="60"/>
+    <item android:drawable="@drawable/destroy10" android:duration="60"/>
+    <item android:drawable="@drawable/destroy11" android:duration="60"/>
+    <item android:drawable="@drawable/destroy12" android:duration="60"/>
+    <item android:drawable="@drawable/destroy13" android:duration="60"/>
+    <item android:drawable="@drawable/destroy14" android:duration="60"/>
+</animation-list>

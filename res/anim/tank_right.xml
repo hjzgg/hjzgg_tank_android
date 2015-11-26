@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/mytank_right1" android:duration="60"/>
+    <item android:drawable="@drawable/mytank_right2" android:duration="60"/>
+    <item android:drawable="@drawable/mytank_right3" android:duration="60"/>
+    <item android:drawable="@drawable/mytank_right4" android:duration="60"/>
+    <item android:drawable="@drawable/mytank_right5" android:duration="60"/>
+    <item android:drawable="@drawable/mytank_right6" android:duration="60"/>
+    <item android:drawable="@drawable/mytank_right7" android:duration="60"/>
+    <item android:drawable="@drawable/mytank_right8" android:duration="60"/>
+    <item android:drawable="@drawable/mytank_right9" android:duration="60"/>
+    <item android:drawable="@drawable/mytank_right10" android:duration="60"/>
+    <item android:drawable="@drawable/mytank_right11" android:duration="60"/>
+    <item android:drawable="@drawable/mytank_right12" android:duration="60"/>
+    <item android:drawable="@drawable/mytank_right13" android:duration="60"/>
+    <item android:drawable="@drawable/mytank_right14" android:duration="60"/>
+    
+</animation-list>

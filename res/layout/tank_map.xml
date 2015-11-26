@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/llayout"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+    
+    <Button 
+        android:text="上一张"
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <ImageSwitcher 
+        android:id="@+id/imageSwitcher1"
+        android:layout_gravity="center"
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        />
+     
+    <Button 
+        android:text="下一张"
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+</LinearLayout>
